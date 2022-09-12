@@ -1,10 +1,18 @@
-class Addition{
-public static void main(String []args){
-System.out.println("two numbers are: ");
-int a=5; // initialize 1st local variable
-int b=6; // initialize 2nd local variable
-System.out.println(a+"  " +b);
-int sum= a+b;
-System.out.println("sum is : " +sum);
-}
-}
+//method overloading:changing data type of argument
+
+package operator;
+
+public class Addition { //class
+	static int add(int a,int b) { //no of argument 2 add is a method
+return(a+b);}
+	static double add(double a,double b) { //no of argument 2 add is a method
+		return(a+b);}
+
+	class overloading{//main class
+	public static void main(String[] args) {
+		System.out.println(Addition.add(10,15));
+		System.out.println(Addition.add(10.6,15.4));
+
+	}}}
+
+
