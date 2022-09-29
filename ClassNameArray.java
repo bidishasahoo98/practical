@@ -10,6 +10,7 @@ public class ClassNameArray {
 		String name=c.getName();
 		//print the class name
 		System.out.println(c);
+		System.out.println(name);
 
 	}
 
